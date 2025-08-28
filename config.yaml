@@ -1,0 +1,26 @@
+host: localhost:4455
+password: password
+port: 4455
+
+groups:
+  - name: "Toggle"
+    type: "scene"
+    scenes:
+      - Starting
+      - Ending
+
+  - name: "Next"
+    type: "scene"
+    scenes:
+      - Starting
+      - Just Chatting
+      - Programming
+      - Ending
+
+  - name: "Prev"
+    type: "scene"
+    scenes:
+      - Ending
+      - Programming
+      - Just Chatting
+      - Starting
